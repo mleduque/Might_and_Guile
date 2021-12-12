@@ -213,7 +213,7 @@ Abilities:
 Abilities:
 - Begins with the following feats at 1st level: Dodge, Combat Training, and Precise Strike.
 - May repeat learning the Dodge and Combat training feats, up to four times each.
-- May learn two special feats: Swashbuckling and Escape Artist. Swashbuckling is a temporary ability that the Swashbuckler more annoying and harder to hit in melee combat. Escape Artist allows the Swashbuckler a chance to escape whenever Held, Webbed, or otherwise helpless.
+- May learn two special feats: Swashbuckling and Escape Artist. Swashbuckling is a temporary ability that makes the Swashbuckler more annoying and harder to hit in melee combat. Escape Artist allows the Swashbuckler a chance to escape whenever Held, Webbed, or otherwise helpless.
 - May Specialize (++) in any melee weapon available to Thieves.
 - May fully master (+++) the Two-Weapon Fighting style.
 
@@ -275,7 +275,7 @@ Restrictions:
 @20119  = ~Poison Trap~
 @20120  = ~Poison Trap: this ability sets a trap that, when triggered, fires small poison-tipped darts at everyone within 15 feet. Victims must make a saving throw to avoid taking 2d4 poison damage per round for three rounds.~
 @20129  = ~Maze Trap~
-@20130  = ~This powerful trap combines an advanced thief's mechanical abilities with a mastery over shadow magic.  When triggered by an enemy, the victim will be shunted into pocket of the Plane of Shadow. How long they are trapped in that place depends on the victim's intelligence score, as outlined in the 8th level wizard spell 'Maze.'~
+@20130  = ~Maze Trap: this powerful trap combines an advanced thief's mechanical abilities with a mastery over shadow magic.  When triggered by an enemy, the victim will be shunted into pocket of the Plane of Shadow. How long they are trapped in that place depends on the victim's intelligence score, as outlined in the 8th level wizard spell 'Maze.'~
 @20131  = ~Basic Alchemy~
 @20132  = ~Basic Alchemy: this ability enables the creation of one of the following potions, once per day: a Potion of Healing; an Antidote; a Potion of Strength; a Potion of Perception; a Potion of Fire Resistance; a Potion of Cold Resistance; or two Flaming Oils. 
 
@@ -373,7 +373,7 @@ Weight: 0
 
 This allows the use of any one of the following five abilities:
   1) Color Spray
-  3) Blur
+  2) Blur
   3) Glitterdust (at 7th level)
   4) Mirror Image (at 7th level)
   5) Misleading Clone (at 11th level)
@@ -726,6 +726,7 @@ While the bard maintains this aura, once per round, all illusions within 3 feet 
 
 While the bard maintains this aura, all enemies within 3 feet suffer a 1-point penalty to Luck, melee thac0, melee damage, armor class, and saving throws. In addition, each time the bard strikes an enemy (up to once per round), the enemy must save vs. spells or this penalty is increased by one more point, for three rounds.~
 @21511  = ~Bladesong~
+// should we copy/adapt the description from 5112/5114 or isit something completely different?
 @21512  = ~Bladesong
 
 While the bard maintains this aura, <PRO_HESHE> ~
@@ -991,7 +992,7 @@ Advantages:
 Restrictions:
 - May not turn undead.
 ~
-@21891  = ~ACROBAT: As entertainers, most Acrobats are typically found accompanying carnivals or circuses, although a troupe of Acrobats can put on a remarkable show all by themselves. The often perform in large taverns or in clubs, using their arts to draw in the crowd and captivate them long enough for the proprietor to drain their purses. Acrobats are flashy and love to show off their skills; whatever they do, they like to do with a sense of style and a flair for the dramatic. Acrobats sometimes become cat burglars extraordinaire, and they are also useful adventuring allies, as they can squeeze into places where others cannot go without the aid of magic. Their skill at avoiding traps and other dangers also makes them excellent scouts.
+@21891  = ~ACROBAT: As entertainers, most Acrobats are typically found accompanying carnivals or circuses, although a troupe of Acrobats can put on a remarkable show all by themselves. They often perform in large taverns or in clubs, using their arts to draw in the crowd and captivate them long enough for the proprietor to drain their purses. Acrobats are flashy and love to show off their skills; whatever they do, they like to do with a sense of style and a flair for the dramatic. Acrobats sometimes become cat burglars extraordinaire, and they are also useful adventuring allies, as they can squeeze into places where others cannot go without the aid of magic. Their skill at avoiding traps and other dangers also makes them excellent scouts.
 
 Advantages:
 -  +1 bonus to Armor Class
@@ -1677,6 +1678,7 @@ QUIVERING PALM: The next successful attack forces the opponent to save vs. Spell
 - 20th level: Becomes immune to non-magical weapons.
 - Alignment restricted to lawful.
 - Hit Die: d8~
+// Version of monk with scales "magic resistance overhaul" option, replaces monks RM with save bonuses
 @2652   = ~MONK: these meditative warriors who pursue perfection through contemplation as well as action. They are versatile fighters, especially skilled in combat without weapons or armor. Though Monks cannot cast spells, they have a unique magic of their own: they channel a subtle energy, called ki, which allows them to perform amazing feats. The Monk's best known feat is their ability to stun an opponent with an unarmed blow.
 
 CLASS FEATURES:
@@ -1902,14 +1904,14 @@ This is a fighting style which focuses on harrying one's opponent while avoiding
 //
 @3202  = ~marksman~
 @3203  = ~Marksman~
-@3204  = ~The Marksman is the epitome of skill with ranged weapons. He can make almost any shot, no matter how difficult. To become so skilled, the marksman has had to sacrifice some proficiency with melee weapons and armor.
+@3204  = ~The Marksman is the epitome of skill with misslie weapons. He can make almost any shot, no matter how difficult. To become so skilled, the marksman has had to sacrifice some proficiency with melee weapons and armor.
 
 Advantages:
 - +1 to hit and damage rolls with any missile weapon every 3 levels.
 - May achieve Grand Mastery (+++++) in longbows, shortbows, and crossbows.
 - May use the Called Shot ability once per day. Gains one use at level 4 and an additional use every 4 levels thereafter.
 
-CALLED SHOT: All successful ranged attacks within the next 10 seconds have the following cumulative effects besides normal damage, according to the level of the Archer:
+CALLED SHOT: All successful ranged attacks within the next 10 seconds have the following cumulative effects besides normal damage, according to the level of the Marksman:
  4th level: -1 penalty to target's THAC0.
  8th level: -1 penalty to target's Saving Throws vs. Spell.
  12th level: -1 penalty to the target's Strength score.
@@ -1919,7 +1921,7 @@ Disadvantages:
 - May not wear heavier armor than splint mail.
 - May only become Specialized (++) with melee weapons.
 ~
-@3205  = ~MARKSMAN: This soldier is the epitome of skill with ranged weapons. He can make almost any shot, no matter how difficult. To become so skilled, the marksman has had to sacrifice some proficiency with melee weapons and armor.
+@3205  = ~MARKSMAN: This soldier is the epitome of skill with missile weapons. He can make almost any shot, no matter how difficult. To become so skilled, the marksman has had to sacrifice some proficiency with melee weapons and armor.
  
 Abilities:
 - +1 to hit and damage rolls with ranged weapon at levels 3, 6, 10, 15, and 21.
@@ -1987,7 +1989,7 @@ Restrictions:
 //
 @3241  = ~slinger~
 @3242  = ~Slinger~
-@3243  = ~The Slinger is the epitome of skill with the sling - the result of halflings' natural aptitude with slings and their single-minded cultural dedication to training with the weapon.
+@3243  = ~The Slinger is the epitome of skill with the sling - the result of halflings' natural aptitude with slings and their single-minded cultural dedication to training with the weapon. To become so skilled with the sling, the Slinger has had to sacrifice some proficiency with melee weapons and armor.
 
 Advantages:
 - +1 to hit and damage rolls with any missile weapon every 3 levels.
@@ -2088,7 +2090,7 @@ Restrictions:
 @3909  = ~~
 @3910  = ~~
 @3911  = ~Parry~
-@3912  = ~Parry: for the next 2 rounds, the warrior wil have a 4-point AC bonus, and APR will be 0.5. At 7th level and higher, the AC bonus will be 6 points and APR will be 1.~
+@3912  = ~Parry: for the next 2 rounds, the warrior will have a 4-point AC bonus, and APR will be 0.5. At 7th level and higher, the AC bonus will be 6 points and APR will be 1.~
 @3913  = ~Flurry~
 @3914  = ~Flurry: for the next 2 rounds, the warrior will have a +1 APR bonus, but will suffer a 2-point penalty to THAC0 and AC.~
 @3915  = ~Intimidate~
@@ -2284,7 +2286,7 @@ Abilities:
 - The Meistersinger's song brings Luck to allies within earshot.
 - May use the ranger's Animal Empathy ability.
 //- Once per day, may summon a swarm of friendly rodents (3 a 1st level, and 3 more for //every third level after that).
-- May cast the following druid spells: Cure Light Wounds, Entangle, Sanctuary, Shillelagh, Barkskin, Charm Person/Mammal, Resist Fire/Cold, Slow Poison, Remove Paralysis, Cure Disease, Zone of Sweet Air, Summon Insects, Cure Serious Wounds, Call Woodland Being, Leser Restoration, Mass Cure, Chaotic Commands, Insect Plague, Animal Summoning III, and False Dawn.
+- May cast the following druid spells: Cure Light Wounds, Entangle, Sanctuary, Shillelagh, Barkskin, Charm Person/Mammal, Resist Fire/Cold, Slow Poison, Remove Paralysis, Cure Disease, Zone of Sweet Air, Summon Insects, Cure Serious Wounds, Call Woodland Being, Lesser Restoration, Mass Cure, Chaotic Commands, Insect Plague, Animal Summoning III, and False Dawn.
 
 Restrictions:
 - May only gain proficiency in weapons appropriate for use by druids.
@@ -2292,7 +2294,7 @@ Restrictions:
 ~
 @4805  = ~Meistersingers wander the woodlands, charming animals with their melodies and helping druids and rangers to protect nature. They are the enemies of ruthless hunters and trappers, striving against such activities with their animal allies, beguiling music, and nature-based magic.~
 @4806  = ~Pied Piping~
-@4807  = ~With this ability, the Meistersinger can summon a swarm of rodents to attack adn confuse his enemies.~
+@4807  = ~With this ability, the Meistersinger can summon a swarm of rodents to attack and confuse his enemies.~
 @4808   = ~Conjure Rabbit~
 @4809   = ~Conjure Rabbit
 
@@ -2341,7 +2343,7 @@ Restrictions:
 @5010   = ~CLERIC/RANGER: This character can use the abilities of a Cleric and a Ranger, though weapons are restricted to only those allowed by the Cleric's ethos.  This character may Specialize in any weapon a cleric can use.  Upon starting the game, this character will automatically become a kitted Woodscout of Mielikki, or, if an elf, a Forestwalker of Solonor Thelandira.  With the blessings of these forest deities, the Woodscout or Forestwalker may cast both cleric and druid spells of all levels.~
 @5011   = ~Woodscout of Mielikki~
 @5012   = ~Totem of Mielikki~
-@5013   = ~This an ornate carved symbol of the goddess Mielikki. A ranger who accomplishes deeds that please Mielikki may find and use a symbol such as this to devote his or her future development to worship of the goddess.  Such an action should not be taken lightly - it will halt development in the ranger's previous specialty.  But those who put their faith in the Forest Queen by this means will be able to become a Woodscout, a secialized priest of Mielikki.
+@5013   = ~This an ornate carved symbol of the goddess Mielikki. A ranger who accomplishes deeds that please Mielikki may find and use a symbol such as this to devote his or her future development to worship of the goddess.  Such an action should not be taken lightly - it will halt development in the ranger's previous specialty.  But those who put their faith in the Forest Queen by this means will be able to become a Woodscout, a specialized priest of Mielikki.
 
 Woodscouts combine the abilities of rangers and clerics.  It is said that Mielikki has received a special dispensation from Silvanus to grant her Woodscouts access to powerful druidic magic, so that they might better protect nature and champion the cause of justice.
 
@@ -2441,7 +2443,7 @@ Abilities:
 - 2 more hit points each level than a standard thief/mage, up to level 10; and 1 extra hit point every level after level that, up to level 20.
 - Thac0 advances as for a ranger, rather than a thief.
 - May use rangers' Animal Empathy ability.
-- May cast Goodberry as an innate ability once per day per, plus one time for each three levels (up to six times per day at 15th level).
+- May cast Goodberry as an innate ability once per day, plus one time for each three levels (up to six times per day at 15th level).
 - Automatically learns the following druid spells in <PRO_HISHER> wizard spellbook:
 Level 1: Entangle, Sanctuary, Shillelagh
 Level 2: Barkskin, Slow Poison, Flame Blade
@@ -2574,169 +2576,3 @@ Using this Tome will allow the reader to engage in a career as a Ranger/Thief.
 
 [WARNING: activation of this item cannot be reversed. Save before doing so.]
 ~
-@5410  = ~spellbender~
-@5411  = ~Spellbender~
-@5412  = ~SPELLBENDER: The goddess Mystra rules all magic, and mandates that spellcasters must formulate known spells, and must memorize the patterns of those spells in order to successfully release them. But as with any system, the are gaps and shortcuts that may be used to circumvent the rules. Sorcerers are born with the ability to shape magic directly, though only into a limited number of effects; and wild mages shape spells without discipline, achieving powerful results at the risk of disastrous side-effects. Spellbenders make a science of mapping the ways to bypass Mystra's restrictions. Practicing as generalist clerics as well as studying arcane magery, they learn to manipulate the intersection of those two areas of magic. 
-
-Abilities:
-- Spellbenders may sacrifice a memorized wizard spell to instead create one of numerous divine effects; and they may sacrifice a memorized cleric spell to create an arcane effect. 
-
-Restrictions:
-- None
-~
-@5413  = ~Spellbender's Studies~
-@5414  = ~The goddess Mystra rules the fabled Weave of Faerun, the ethereal conduit that allows mortals to shape magical energies into spells and effects. In order to avoid disasters like that which befell Anauroch, Mystra ensures that the use of those energies is strictly controlled: spellcasters must formulate the Weave into specific, known spells, and must memorize the patterns of those spells in order to successfully release them.
-
-But, as with any rigid system, the are gaps and shortcuts that may be used to circumvent Mystra's rules. Sorcerers are born with the ability to focus the Weave directly, though only into a limited number of effects. Wild mages shape spells without discipline, achieving powerful results at the risk of disastrous side-effects.
-
-Unlike those classes, Spellbenders make a science of mapping the ways to bypass Mystra's restrictions. Practicing as generalist clerics and studying arcane magery, they learn to manipulate the intersection of those two areas of magic. They may sacrifice a memorized wizard spell to instead create one of numerous divine effects; and they may sacrifice a memorized cleric spell to create an arcane effect. Some energy is lost in the translation - the improvisational effects must be spells of lower level than the one sacrificed. (It is unknown what happens to the lost energy - some believe this practice has contributed to the recent rise of wild magic and sorcerers. Spellbenders must be wary, as they are apt to be persecuted by Mystra's Monitors.)
-
-While Spellbenders are not as powerful one-to-one as a Sorcerer or Wild Mage or Monitor, the studious application of their knowledge gives them precise control over the Weave that is unmatched by any other spellcaster.
-
-The secrets contained in this tome may enable the owner to learn the skills and abilities of a Spellbender.
-
-[WARNING: activation of this item cannot be reversed. Save before doing so.]~
-@5415  = ~Arcane Weaving I~
-@5416  = ~Arcane Weaving
-
-This magic will allow the Spellbender to cast one of the following spells:
-- Spook
-- Shield
-- Reflected Image
-- Grease
-- Sleep
-- Chromatic Orb
-- Burning Hands
-- Magic Missile~
-@5417  = ~Arcane Weaving II~
-@5418  = ~Arcane Weaving
-
-This magic will allow the Spellbender to cast one of the following spells:
-- Vocalize
-- Blur
-- Invisibility
-- Horror
-- Web
-- Glitterdust
-- Acid Arrow
-- Knock~
-@5419  = ~Arcane Weaving III~
-@5420  = ~Arcane Weaving
-
-This magic will allow the Spellbender to cast one of the following spells:
-- Dispel Magic
-- Detect Illusion
-- Ghost Armor
-- Protection from Missiles
-- Haste
-- Dire Charm
-- Lightning Bolt
-- Fireball~
-@5421  = ~Arcane Weaving IV~
-@5422  = ~Arcane Weaving
-
-This magic will allow the Spellbender to cast one of the following spells:
-- Minor Globe
-- Stoneskin
-- Polymorph Self
-- Improved Invisibility
-- Secret Word
-- Greater Malison
-- Confusion
-- Ice Storm~
-@5423  = ~Arcane Weaving V~
-@5424  = ~Arcane Weaving
-
-This magic will allow the Spellbender to cast one of the following spells:
-- Oracle
-- Shadow Door
-- Minor Turning
-- Phantom Blade
-- Domination
-- Breach
-- Hold Monster
-- Cloudkill~
-@5425  = ~Arcane Weaving VI~
-@5426  = ~Arcane Weaving
-
-This magic will allow the Spellbender to cast one of the following spells:
-- Globe of Invulnerability
-- Spell Deflection
-- Protection from Energy
-- Mislead
-- Tenser's Transformation
-- Pierce Magic
-- Improved Haste
-- Chain Lightning~
-@5427  = ~Divine Weaving I~
-@5428  = ~Divine Weaving
-
-This magic will allow the Spellbender to cast one of the following spells:
-- Cure Light Wounds
-- Bless
-- Remove Fear
-- Protection from Evil
-- Armor of Faith
-- Sanctuary
-- Command
-- Magic Stone~
-@5429  = ~Divine Weaving II~
-@5430  = ~Divine Weaving
-
-This magic will allow the Spellbender to cast one of the following spells:
-- Find Traps
-- Chant
-- Resist Fire and Cold
-- Slow Poison
-- Draw Upon Holy Might
-- Silence
-- Hold Person
-- Spiritual Hammer~
-@5431  = ~Divine Weaving III~
-@5432  = ~Divine Weaving
-
-This magic will allow the Spellbender to cast one of the following spells:
-- Cure Medium Wounds
-- Remove Curse
-- Cure Disease
-- Remove Paralysis
-- Dispel Magic
-- Invisibility Purge
-- Strength of One
-- Holy Smite~
-@5433  = ~Divine Weaving IV~
-@5434  = ~Divine Weaving
-
-This magic will allow the Spellbender to cast one of the following spells:
-- Cure Serious Wounds
-- Lesser Restoration
-- Protection from Evil 10' Radius
-- Defensive Harmony
-- Death Ward
-- Protection from Lightning
-- Free Action
-- Holy Power~
-@5435  = ~Divine Weaving V~
-@5436  = ~Divine Weaving
-
-This magic will allow the Spellbender to cast one of the following spells:
-- Cure Critical Wounds
-- Mass Cure
-- Chaotic Commands
-- Magic Resistance
-- Righteous Magic
-- Greater Command
-- Repulse Undead
-- Flame Strike~
-@5437  = ~Divine Weaving VI~
-@5438  = ~Divine Weaving
-
-This magic will allow the Spellbender to cast one of the following spells:
-- Heal
-- Wondrous Recall
-- Aerial Servant
-- Physical mirror
-- Blade Barrier
-- Sol's Searing Orb
-- False Dawn
-- Bolt of Glory~
