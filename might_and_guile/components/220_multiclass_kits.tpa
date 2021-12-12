@@ -16,13 +16,14 @@ COPY ~might_and_guile/lib/markers/d5_marker.d5~ ~override/d5__multi.d5~
 //FnP KIT DESCRIPTION PATCHING_______________________________________________________
 //
 ACTION_IF (FILE_EXISTS_IN_GAME ~d5__spheres.d5~) BEGIN
-	OUTER_SPRINT focus_access @33
-	OUTER_SPRINT major_access @34
-	OUTER_SPRINT minor_access @35
-	OUTER_SPRINT advantages @36
-	OUTER_SPRINT abilities @37
-	OUTER_SPRINT disadvantages @38
-	OUTER_SPRINT restrictions @39
+	OUTER_SPRINT sphere_access @1002
+	OUTER_SPRINT focus_access @1003
+	OUTER_SPRINT major_access @1004
+	OUTER_SPRINT minor_access @1005
+	OUTER_SPRINT advantages @1006
+	OUTER_SPRINT abilities @1007
+	OUTER_SPRINT disadvantages @1008
+	OUTER_SPRINT restrictions @1009
 END
 //__________________________________________________________________________________
 
