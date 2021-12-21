@@ -17,7 +17,7 @@
 @201 = ~Change Prepared Spells~
 @202 = ~Spell Preparation
 
-This ability allows the you to prepare a new set of spells for the next day. Upon using the ability, preparation slots will become available in your spellbook, and spellcasting will be disabled. After filling any available preparation slots, you must rest for 8 hours. Upon waking, spellcasting will be re-enabled, and you will be unable to modify the contents of your preparation slots until the next time this ability is used.
+This ability allows you to prepare a new set of spells for the next day. Upon using the ability, preparation slots will become available in your spellbook, and spellcasting will be disabled. After filling any available preparation slots, you must rest for 8 hours. Upon waking, spellcasting will be re-enabled, and you will be unable to modify the contents of your preparation slots until the next time this ability is used.
 ~
 //
 @300 = ~Initialize sorcerer-style spell learning~
