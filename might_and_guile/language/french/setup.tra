@@ -1105,8 +1105,7 @@ Avantages :
 - Leur étude de la magie améliore leur compréhension de la magie, de telle sorte qu'ils peuvent lancer des sorts comme s'ils avaient un niveau de plus.
 
 Inconvénients :
-- Ne disposent que de 18 points par niveau pour les compétences de voleur, et ne peuvent utiliser Pickpocket et Pose de pièges.
-- Pas de multiplicateur d'attaque sournoise.
+- Ne disposent que de 20 points par niveau pour les compétences de voleur, et ne peuvent utiliser Pickpocket et Pose de pièges.
 ~
 @5234   = ~Tome poussiéreux de faits et sagesses.~
 @5235   = ~RHAPSODE : Il y a une subtile différence entre le rhapsode et le sage. On rencontre le plus souvent les rhapsodes dans le cadre de leur activité professionnelle, enseignant l'histoire aux autres. Mais à la différence des sages, les rhapsodes ressentent le besoin de partir à la recherche de la connaissance en explorant l'inconnu. On peut les trouver en train de fuir d'énormes rochers dans des donjons remplis de pièges, de combattre de féroces pratiquants de magies étranges ou de découvrir des passages secrets dans des châteaux anciens. Les rhapsodes aiment tous les aspects de l'histoire qui peuvent faire de bons récits.- et apprécient de vivre ces histoires tout autant que de les conter.
@@ -1116,8 +1115,7 @@ CAPACITÉS :
 - Leur étude de la magie améliore leur compréhension de la magie, de telle sorte qu'ils peuvent lancer des sorts comme s'ils avaient un niveau de plus.
 
 Restrictions :
-- Ne disposent que de 18 points par niveau pour les compétences de voleur, et ne peuvent utiliser Pickpocket et Pose de pièges.
-- Pas de multiplicateur d'attaque sournoise.
+- Ne disposent que de 20 points par niveau pour les compétences de voleur, et ne peuvent utiliser Pickpocket et Pose de pièges.
 
 Utiliser ce tome permet au lecteur de commencer une carrière de rhapsode.
 
@@ -1135,10 +1133,12 @@ CAPACITÉS :
 Niveau 1 : Enchevêtrement, Sanctuaire, Gourdin magique
 Niveau 2 : Peau décorce, Ralentissement du poison, Lame enflammée
 Niveau 3 : Guérison des maladies, Appel de la foudre, Convocation d'insectes.
+Niveau 4 : Protection contre la mort, Convocation d'animaux I
+Niveau 5 : Convocation d'animaux II
 
 Restrictions :
 - Ne peut ajouter de points que sur les compétences Se cacher dans l'ombre, Déplacement silencieux, Détection des pièges et Détection des illusions.
-- Ne peut utiliser que 12 points de compétence par niveau pour les compétences de voleur.
+- Ne peut utiliser que 15 points de compétence par niveau pour les compétences de voleur.
 ~
 @5274   = ~Rôdeur/Mage~
 @5275   = ~Tome de magie des bois~
@@ -1146,17 +1146,19 @@ Restrictions :
 
 CAPACITÉS :
 - 2 points de vie de plus par niveau que le voleur/mage classique jusqu'au niveau 10, puis 1 point de plus tous les niveaux jusqu'au niveau 20.
-- Le TAC0 progresse comme celui d'un rôdeur, plutôt que celui d'un voleur.
-- Peut utiliser la compétence Empathie animale du rôdeur.
-- Peut lancer Baies magiques comme une capacité innée une fois par jour, plus une fois pour 3 niveaux (jusqu'à six fois par jour au niveau 15).
+- Bonus de 1 point au TAC0 tous les trois niveaux jusqu'au niveau 18.
+- Sa compétence en combat à une main, à deux mains et en combat à deux armes augmente automatiquement aux niveaux 1 et 9.
+- Peut utiliser la compétence Empathie animale du rôdeur et peut lancer Baies magiques de façon innée.
 - Apprend automatiquement les sorts de druide suivants dans son livre de sorts de mage :
 Niveau 1 : Enchevêtrement, Sanctuaire, Gourdin magique
 Niveau 2 : Peau décorce, Ralentissement du poison, Lame enflammée
 Niveau 3 : Guérison des maladies, Appel de la foudre, Convocation d'insectes.
+Niveau 4 : Protection contre la mort, Convocation d'animaux I
+Niveau 5 : Convocation d'animaux II
 
 Restrictions :
 - Ne peut ajouter de points que sur les compétences Se cacher dans l'ombre, Déplacement silencieux, Détection des pièges et Détection des illusions.
-- Ne peut utiliser que 12 points de compétence par niveau pour les compétences de voleur.
+- Ne peut utiliser que 15 points de compétence par niveau pour les compétences de voleur.
 
 Utiliser ce tome permettra au lecteur d'abandonner une carrière de voleur pour suivre une carrière de rôdeur.
 
@@ -1174,7 +1176,6 @@ Avantages :
 Inconvénients :
 - Ne peut utiliser Pickpocket.
 - Ne dispose que de 20 points de compétence à chaque niveau.
-- Multiplicateur d'attaque sournoise réduit, comme celui du traqueur.
 - Un pilleur de tombes a besoin d'une main libre pour examiner les reliques. Ils n'apprennent donc pas à combattre avec deux armes.
 ~
 @5335  = ~Tome de la fouille de donjon~
@@ -1189,7 +1190,6 @@ Avantages :
 Inconvénients :
 - Ne peut utiliser Pickpocket.
 - Ne dispose que de 20 points de compétence à chaque niveau.
-- Multiplicateur d'attaque sournoise réduit, comme celui du traqueur.
 - Un pilleur de tombes a besoin d'une main libre pour examiner les reliques. Ils n'apprennent donc pas à combattre avec deux armes.
 
 Utiliser ce tome permet au lecteur de commencer une carrière de pilleur de tombes.
@@ -1205,7 +1205,7 @@ Avantages :
 
 Inconvénients :
 - Pénalité de -2 à la dextérité.
-- Ne peut utiliser les compétences de Crochetage, Détection des illusions ou Pose de pièges.
+- Ne peut utiliser les compétences de Crochetage ou Pose de pièges.
 - Ne dispose que de 20 points de compétence par niveau.
 - Ne peut être d'alignement loyal ou bon.
 ~
@@ -1238,7 +1238,6 @@ CAPACITÉS :
 Restrictions:
 - Ne peut utiliser les compétences Pickpocket ou Crochetage.
 - Ne dispose que de 15 points de compétence pour chaque niveau de voleur.
-- multiplicateur d'attaque sournoise réduit, la progression étant calquée sur celle du traqueur.
 - Pénalité sur les gains d'expérience de 15 %.
 - Ne peut être que d'alignement bon.
 ~
@@ -1253,7 +1252,6 @@ CAPACITÉS :
 Restrictions :
 - Ne peut utiliser les compétences Pickpocket ou Crochetage.
 - Ne dispose que de 15 points de compétence pour chaque niveau de voleur.
-- multiplicateur d'attaque sournoise réduit, la progression étant calquée sur celle du traqueur.
 - Pénalité sur les gains d'expérience de 15 %.
 - Ne peut être que d'alignement bon.
 
