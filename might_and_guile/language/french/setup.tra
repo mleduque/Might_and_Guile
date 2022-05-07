@@ -1852,6 +1852,7 @@ Tant que le barde maintient cette aura, à chaque round, toutes les illusions à
 @21492  = ~Aura : Maléfice
 
 Tant que le barde maintient cette aura, tous les ennemis à moins d'un mètre subissent une pénalité d'un point à la chance, aux jets d'attaque et de dégâts en mêlée, à la classe d'armure et aux jets de sauvegarde. De plus, chaque fois que le barde frappe un ennemi (mais au plus une fois par round), l'ennemi doit réussir un jet de sauvegarde contre les sorts, sans quoi la pénalité est augmentée d'un point pour 3 rounds.
+~
 
 @21511  = ~Chantesort~
 @21512  = ~Chantesort
